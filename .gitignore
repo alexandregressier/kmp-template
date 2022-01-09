@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# IntelliJ IDEA
+.idea/*
+!.idea/dictionaries/
+!.idea/scopes/
+!.idea/fileColors.xml
+*.iml
+
+# Gradle
+.gradle/
+build/
+
+# Android Studio
+/local.properties
+
+# Error Logs
+hs_err_pid*

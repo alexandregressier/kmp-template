@@ -1,0 +1,27 @@
+AppName:
+    type: str
+    help: The name of the application, upper camel cased (e.g., MyApplication)
+
+appname:
+    type: str
+    help: The name of the application, lower cased (e.g., myapplication)
+
+App_Name:
+    type: str
+    default: "[[ AppName ]]"
+    help: The name of the application as it will appear under its icon (e.g., My Application)
+
+domain:
+    type: str
+    help: The name of your domain (e.g., google)
+
+tld:
+    type: str
+    help: The TLD of your domain name (e.g., com)
+
+version:
+    type: str
+    default: 0.1.0
+    help: The initial version of the Android & iOS apps (e.g., [[version]])
+
+_templates_suffix: '*'
