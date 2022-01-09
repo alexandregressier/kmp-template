@@ -23,5 +23,3 @@ version:
     type: str
     default: 0.1.0
     help: The initial version of the Android & iOS apps (e.g., [[version]])
-
-_templates_suffix: '*'
